@@ -1,0 +1,50 @@
+$default-color: #4267B2;
+$dark-color: #1A2A47;
+$default-height: 1.5rem;
+
+.header {
+    background-color: $default-color;
+    height: 2.6rem;
+}
+
+.logo-control {
+    filter: brightness(100);
+}
+
+.search-control {
+    height: $default-height;
+    margin-top: 0.5rem;   
+}
+
+.searchicon {
+    height: $default-height;
+    transform: translateY(-9px);
+}
+
+.user-icons {
+    color: $dark-color;
+    font-size: 1.3rem;
+    margin: 0 0.3rem 0 0.4rem;
+}
+
+.user-interaction {
+    padding: 0.5rem 0;
+}
+
+.verticalbreak {
+    margin: 0 0.5rem;
+    border-right: 1px solid #3C5CA0;
+}
+
+.user-button {
+    margin: 0.3rem 0.1rem;
+    color: #f9f9f9;
+    border-radius: 0.5rem;
+    background-color: $default-color;
+    border: none;
+    float: right;
+}
+
+.user-button:hover {
+    background-color: #365899;
+}
