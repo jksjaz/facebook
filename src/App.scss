@@ -2,6 +2,25 @@ $default-color: #4267B2;
 $dark-color: #1A2A47;
 $default-height: 1.5rem;
 
+body, button, input, label, select, td, textarea {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;
+}
+
+a {
+    color: #365899;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+div {
+    display: block;
+}
+
+.fixed-element {
+    position: fixed !important;
+}
+
 .header {
     background-color: $default-color;
     height: 2.6rem;
@@ -47,4 +66,61 @@ $default-height: 1.5rem;
 
 .user-button:hover {
     background-color: #365899;
+}
+
+.breadcrum-photo-image {
+    background-position: 0 -884px;
+}
+
+.breadcrum-tag-image {
+    background-position: 0 -548px;
+}
+
+.breadcrum-feel-image {
+    background-position: 0 -485px;
+}
+
+.breadcrum-extra-image {
+    background-position: 0 -1472px;
+}
+
+.icon-standard {
+    background-image: url(https://facebook.com/rsrc.php/v3/yo/r/TsQOhvTFOz1.png);
+    background-size: 32px 1961px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+}
+
+.breadcrum-button {
+    background: #f5f6f7;
+    border-radius: 18px;
+    cursor: pointer;
+    position: relative;
+}
+
+.create-post-buttons {
+    display: inline-block;
+}
+
+// Left nav bar icons and items
+.nav-icon-config {
+    display: inline;
+}
+
+.icon-news-feed {
+    background-position: 0 -758px;
+}
+
+.icon-messenger-feed {
+    background-position: 0 -170px;
+}
+
+.icon-watch-feed {
+    background-position: 0 -1178px;
+}
+
+.icon-market-feed {
+    background-position: 0 -716px;
 }
