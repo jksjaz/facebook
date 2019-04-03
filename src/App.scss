@@ -2,6 +2,11 @@ $default-color: #4267B2;
 $dark-color: #1A2A47;
 $default-height: 1.5rem;
 
+.master-defaults {
+    background-color: #e9ebee;
+    height: 100vh;
+}
+
 body, button, input, label, select, td, textarea {
     font-family: Helvetica, Arial, sans-serif;
     font-size: 12px;
@@ -15,6 +20,13 @@ a {
 
 div {
     display: block;
+}
+
+.element-header-title {
+    color: #616770;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 13px;
 }
 
 .fixed-element {
@@ -123,4 +135,94 @@ div {
 
 .icon-market-feed {
     background-position: 0 -716px;
+}
+
+
+// Stories
+
+.stories-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    padding-bottom: 0;
+    background-color: #fff;
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #dddfe2;
+    border-radius: 4px;
+}
+
+.stories-header {
+    align-self: stretch;
+    display: flex;
+    height: 16px;
+    justify-content: space-between;
+    padding-bottom: 12px;
+}
+
+.stories-icons {
+    background-image: url(https://facebook.com/rsrc.php/v3/yt/r/ZjIU4USTJQ6.png);
+    background-size: 53px 334px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 16px;
+    width: 16px;
+}
+
+.stories-archive-clock {
+    width: 12px;
+    height: 12px;
+    background-position: 0 -308px;
+    margin-bottom: -1px;
+    margin-right: 5px;
+}
+
+.stories-body {
+    align-items: stretch;
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    max-height: 168px;
+    overflow: hidden;
+    transition: max-height .5s;
+    width: 100%;
+}
+
+.stories-story-config {
+    align-items: center;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: flex;
+    flex: 1 1 0%;
+    justify-content: flex-start;
+    margin-bottom: 8px;
+    min-height: 56px;
+    position: relative;
+}
+
+.stories-story-button-container {
+    align-items: center;
+    background-color: #f5f6f7;
+    border: 1px solid #dadde1;
+    border-radius: 50%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    height: 52px;
+    width: 52px;
+}
+
+.stories-story-button {
+    border: none;
+    height: 56px;
+    padding: 2px 2px;
+    width: 56px;
+}
+
+.stories-add-button {
+    width: 24px;
+    height: 24px;
+    background-position: 0 -180px;
 }

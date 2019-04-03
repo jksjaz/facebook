@@ -3,7 +3,7 @@ import React from "react"
 const CreatePost = () => {
     return (
         <div className="card">
-            <div className="card-header">
+            <div className="card-header element-header-title">
             Create Post
             </div>
             <div className="card-body">
